@@ -1,0 +1,411 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4004672,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "11061003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Psychoactive substance use disorder",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[sooj] substance use disorder",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9276,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "[CCID_50]",
+            "VOCABULARY_ID": "UCUM",
+            "CONCEPT_NAME": "50% cell culture infectious dose",
+            "DOMAIN_ID": "Unit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Unit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37116661,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "733461000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cocaine user",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44790195,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231221000000105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Delivery of rehabilitation for drug addiction",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44786481,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G9276",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Documentation that patient is a current tobacco user",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4151569,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "270393005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug addiction notification",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4149607,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "310653000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug addiction therapy - methadone",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440069,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191816009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug dependence",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440787,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34150001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug dependence in mother complicating pregnancy, childbirth AND/OR puerperium",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37116660,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "733460004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Marijuana user",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434697,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169940006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Maternal tobacco abuse",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4219382,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "417471002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Persistent substance misuse",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4004672,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11061003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psychoactive substance use disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443274,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "275471001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psychostimulant dependence",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44787894,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "112891000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Referral to community drug dependency team",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4269905,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "401266006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Referral to drug abuse counselor",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4279309,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "66214007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Substance abuse",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2796056,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "HZ9",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Substance Abuse Treatment, Pharmacotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4217840,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "415658005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Substance misuse behavior",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4302387,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "386450006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Substance use treatment: drug withdrawal",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4319165,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "95918004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Therapeutic drug dependence",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] substance use disorder (DRN)",
+      "id": 3
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 3,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
