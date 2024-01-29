@@ -1,139 +1,4 @@
 targetId,comparatorId,outcomeId,outcomeName,type
-2576,2577,381581,Chalazion,outcome
-2576,2577,260134,Croup,outcome
-2576,2577,441788,Human papilloma virus infection,outcome
-2576,2577,139099,Ingrowing nail,outcome
-2576,2577,4134455,Mononeuropathy,outcome
-2576,2577,4215978,Onychomycosis,outcome
-2576,2577,4112731,Polyp of intestine,outcome
-2576,2577,140641,Verruca vulgaris,outcome
-2576,2577,4332246,Aneurysm,outcome
-2576,2577,432585,Blood coagulation disorder,outcome
-2576,2577,440674,Gout,outcome
-2576,2577,378416,Retinal disorder,outcome
-2576,2577,4032878,Hair follicle disorder,outcome
-2576,2577,194475,Hiccoughs,outcome
-2576,2577,377910,Deviated nasal septum,outcome
-2577,2550,381581,Chalazion,outcome
-2577,2550,260134,Croup,outcome
-2577,2550,441788,Human papilloma virus infection,outcome
-2577,2550,139099,Ingrowing nail,outcome
-2577,2550,4134455,Mononeuropathy,outcome
-2577,2550,4215978,Onychomycosis,outcome
-2577,2550,4112731,Polyp of intestine,outcome
-2577,2550,140641,Verruca vulgaris,outcome
-2577,2550,4332246,Aneurysm,outcome
-2577,2550,432585,Blood coagulation disorder,outcome
-2577,2550,440674,Gout,outcome
-2577,2550,378416,Retinal disorder,outcome
-2577,2550,4032878,Hair follicle disorder,outcome
-2577,2550,194475,Hiccoughs,outcome
-2577,2550,377910,Deviated nasal septum,outcome
-2550,2576,381581,Chalazion,outcome
-2550,2576,260134,Croup,outcome
-2550,2576,441788,Human papilloma virus infection,outcome
-2550,2576,139099,Ingrowing nail,outcome
-2550,2576,4134455,Mononeuropathy,outcome
-2550,2576,4215978,Onychomycosis,outcome
-2550,2576,4112731,Polyp of intestine,outcome
-2550,2576,140641,Verruca vulgaris,outcome
-2550,2576,4332246,Aneurysm,outcome
-2550,2576,432585,Blood coagulation disorder,outcome
-2550,2576,440674,Gout,outcome
-2550,2576,378416,Retinal disorder,outcome
-2550,2576,4032878,Hair follicle disorder,outcome
-2550,2576,194475,Hiccoughs,outcome
-2550,2576,377910,Deviated nasal septum,outcome
-2628,2626,381581,Chalazion,outcome
-2628,2626,260134,Croup,outcome
-2628,2626,441788,Human papilloma virus infection,outcome
-2628,2626,139099,Ingrowing nail,outcome
-2628,2626,4134455,Mononeuropathy,outcome
-2628,2626,4215978,Onychomycosis,outcome
-2628,2626,4112731,Polyp of intestine,outcome
-2628,2626,140641,Verruca vulgaris,outcome
-2628,2626,4332246,Aneurysm,outcome
-2628,2626,432585,Blood coagulation disorder,outcome
-2628,2626,440674,Gout,outcome
-2628,2626,378416,Retinal disorder,outcome
-2628,2626,4032878,Hair follicle disorder,outcome
-2628,2626,194475,Hiccoughs,outcome
-2628,2626,377910,Deviated nasal septum,outcome
-2626,2624,381581,Chalazion,outcome
-2626,2624,260134,Croup,outcome
-2626,2624,441788,Human papilloma virus infection,outcome
-2626,2624,139099,Ingrowing nail,outcome
-2626,2624,4134455,Mononeuropathy,outcome
-2626,2624,4215978,Onychomycosis,outcome
-2626,2624,4112731,Polyp of intestine,outcome
-2626,2624,140641,Verruca vulgaris,outcome
-2626,2624,4332246,Aneurysm,outcome
-2626,2624,432585,Blood coagulation disorder,outcome
-2626,2624,440674,Gout,outcome
-2626,2624,378416,Retinal disorder,outcome
-2626,2624,4032878,Hair follicle disorder,outcome
-2626,2624,194475,Hiccoughs,outcome
-2626,2624,377910,Deviated nasal septum,outcome
-2624,2628,381581,Chalazion,outcome
-2624,2628,260134,Croup,outcome
-2624,2628,441788,Human papilloma virus infection,outcome
-2624,2628,139099,Ingrowing nail,outcome
-2624,2628,4134455,Mononeuropathy,outcome
-2624,2628,4215978,Onychomycosis,outcome
-2624,2628,4112731,Polyp of intestine,outcome
-2624,2628,140641,Verruca vulgaris,outcome
-2624,2628,4332246,Aneurysm,outcome
-2624,2628,432585,Blood coagulation disorder,outcome
-2624,2628,440674,Gout,outcome
-2624,2628,378416,Retinal disorder,outcome
-2624,2628,4032878,Hair follicle disorder,outcome
-2624,2628,194475,Hiccoughs,outcome
-2624,2628,377910,Deviated nasal septum,outcome
-2625,2629,381581,Chalazion,outcome
-2625,2629,260134,Croup,outcome
-2625,2629,441788,Human papilloma virus infection,outcome
-2625,2629,139099,Ingrowing nail,outcome
-2625,2629,4134455,Mononeuropathy,outcome
-2625,2629,4215978,Onychomycosis,outcome
-2625,2629,4112731,Polyp of intestine,outcome
-2625,2629,140641,Verruca vulgaris,outcome
-2625,2629,4332246,Aneurysm,outcome
-2625,2629,432585,Blood coagulation disorder,outcome
-2625,2629,440674,Gout,outcome
-2625,2629,378416,Retinal disorder,outcome
-2625,2629,4032878,Hair follicle disorder,outcome
-2625,2629,194475,Hiccoughs,outcome
-2625,2629,377910,Deviated nasal septum,outcome
-2627,2625,381581,Chalazion,outcome
-2627,2625,260134,Croup,outcome
-2627,2625,441788,Human papilloma virus infection,outcome
-2627,2625,139099,Ingrowing nail,outcome
-2627,2625,4134455,Mononeuropathy,outcome
-2627,2625,4215978,Onychomycosis,outcome
-2627,2625,4112731,Polyp of intestine,outcome
-2627,2625,140641,Verruca vulgaris,outcome
-2627,2625,4332246,Aneurysm,outcome
-2627,2625,432585,Blood coagulation disorder,outcome
-2627,2625,440674,Gout,outcome
-2627,2625,378416,Retinal disorder,outcome
-2627,2625,4032878,Hair follicle disorder,outcome
-2627,2625,194475,Hiccoughs,outcome
-2627,2625,377910,Deviated nasal septum,outcome
-2629,2627,381581,Chalazion,outcome
-2629,2627,260134,Croup,outcome
-2629,2627,441788,Human papilloma virus infection,outcome
-2629,2627,139099,Ingrowing nail,outcome
-2629,2627,4134455,Mononeuropathy,outcome
-2629,2627,4215978,Onychomycosis,outcome
-2629,2627,4112731,Polyp of intestine,outcome
-2629,2627,140641,Verruca vulgaris,outcome
-2629,2627,4332246,Aneurysm,outcome
-2629,2627,432585,Blood coagulation disorder,outcome
-2629,2627,440674,Gout,outcome
-2629,2627,378416,Retinal disorder,outcome
-2629,2627,4032878,Hair follicle disorder,outcome
-2629,2627,194475,Hiccoughs,outcome
-2629,2627,377910,Deviated nasal septum,outcome
 2692,2693,381581,Chalazion,outcome
 2692,2693,260134,Croup,outcome
 2692,2693,441788,Human papilloma virus infection,outcome
@@ -149,51 +14,6 @@ targetId,comparatorId,outcomeId,outcomeName,type
 2692,2693,4032878,Hair follicle disorder,outcome
 2692,2693,194475,Hiccoughs,outcome
 2692,2693,377910,Deviated nasal septum,outcome
-2698,2693,381581,Chalazion,outcome
-2698,2693,260134,Croup,outcome
-2698,2693,441788,Human papilloma virus infection,outcome
-2698,2693,139099,Ingrowing nail,outcome
-2698,2693,4134455,Mononeuropathy,outcome
-2698,2693,4215978,Onychomycosis,outcome
-2698,2693,4112731,Polyp of intestine,outcome
-2698,2693,140641,Verruca vulgaris,outcome
-2698,2693,4332246,Aneurysm,outcome
-2698,2693,432585,Blood coagulation disorder,outcome
-2698,2693,440674,Gout,outcome
-2698,2693,378416,Retinal disorder,outcome
-2698,2693,4032878,Hair follicle disorder,outcome
-2698,2693,194475,Hiccoughs,outcome
-2698,2693,377910,Deviated nasal septum,outcome
-2700,2693,381581,Chalazion,outcome
-2700,2693,260134,Croup,outcome
-2700,2693,441788,Human papilloma virus infection,outcome
-2700,2693,139099,Ingrowing nail,outcome
-2700,2693,4134455,Mononeuropathy,outcome
-2700,2693,4215978,Onychomycosis,outcome
-2700,2693,4112731,Polyp of intestine,outcome
-2700,2693,140641,Verruca vulgaris,outcome
-2700,2693,4332246,Aneurysm,outcome
-2700,2693,432585,Blood coagulation disorder,outcome
-2700,2693,440674,Gout,outcome
-2700,2693,378416,Retinal disorder,outcome
-2700,2693,4032878,Hair follicle disorder,outcome
-2700,2693,194475,Hiccoughs,outcome
-2700,2693,377910,Deviated nasal septum,outcome
-2699,2693,381581,Chalazion,outcome
-2699,2693,260134,Croup,outcome
-2699,2693,441788,Human papilloma virus infection,outcome
-2699,2693,139099,Ingrowing nail,outcome
-2699,2693,4134455,Mononeuropathy,outcome
-2699,2693,4215978,Onychomycosis,outcome
-2699,2693,4112731,Polyp of intestine,outcome
-2699,2693,140641,Verruca vulgaris,outcome
-2699,2693,4332246,Aneurysm,outcome
-2699,2693,432585,Blood coagulation disorder,outcome
-2699,2693,440674,Gout,outcome
-2699,2693,378416,Retinal disorder,outcome
-2699,2693,4032878,Hair follicle disorder,outcome
-2699,2693,194475,Hiccoughs,outcome
-2699,2693,377910,Deviated nasal septum,outcome
 2708,2540,381581,Chalazion,outcome
 2708,2540,260134,Croup,outcome
 2708,2540,441788,Human papilloma virus infection,outcome
@@ -254,6 +74,51 @@ targetId,comparatorId,outcomeId,outcomeName,type
 2710,2540,4032878,Hair follicle disorder,outcome
 2710,2540,194475,Hiccoughs,outcome
 2710,2540,377910,Deviated nasal septum,outcome
+2700,2693,381581,Chalazion,outcome
+2700,2693,260134,Croup,outcome
+2700,2693,441788,Human papilloma virus infection,outcome
+2700,2693,139099,Ingrowing nail,outcome
+2700,2693,4134455,Mononeuropathy,outcome
+2700,2693,4215978,Onychomycosis,outcome
+2700,2693,4112731,Polyp of intestine,outcome
+2700,2693,140641,Verruca vulgaris,outcome
+2700,2693,4332246,Aneurysm,outcome
+2700,2693,432585,Blood coagulation disorder,outcome
+2700,2693,440674,Gout,outcome
+2700,2693,378416,Retinal disorder,outcome
+2700,2693,4032878,Hair follicle disorder,outcome
+2700,2693,194475,Hiccoughs,outcome
+2700,2693,377910,Deviated nasal septum,outcome
+2699,2693,381581,Chalazion,outcome
+2699,2693,260134,Croup,outcome
+2699,2693,441788,Human papilloma virus infection,outcome
+2699,2693,139099,Ingrowing nail,outcome
+2699,2693,4134455,Mononeuropathy,outcome
+2699,2693,4215978,Onychomycosis,outcome
+2699,2693,4112731,Polyp of intestine,outcome
+2699,2693,140641,Verruca vulgaris,outcome
+2699,2693,4332246,Aneurysm,outcome
+2699,2693,432585,Blood coagulation disorder,outcome
+2699,2693,440674,Gout,outcome
+2699,2693,378416,Retinal disorder,outcome
+2699,2693,4032878,Hair follicle disorder,outcome
+2699,2693,194475,Hiccoughs,outcome
+2699,2693,377910,Deviated nasal septum,outcome
+2698,2693,381581,Chalazion,outcome
+2698,2693,260134,Croup,outcome
+2698,2693,441788,Human papilloma virus infection,outcome
+2698,2693,139099,Ingrowing nail,outcome
+2698,2693,4134455,Mononeuropathy,outcome
+2698,2693,4215978,Onychomycosis,outcome
+2698,2693,4112731,Polyp of intestine,outcome
+2698,2693,140641,Verruca vulgaris,outcome
+2698,2693,4332246,Aneurysm,outcome
+2698,2693,432585,Blood coagulation disorder,outcome
+2698,2693,440674,Gout,outcome
+2698,2693,378416,Retinal disorder,outcome
+2698,2693,4032878,Hair follicle disorder,outcome
+2698,2693,194475,Hiccoughs,outcome
+2698,2693,377910,Deviated nasal septum,outcome
 2704,2706,381581,Chalazion,outcome
 2704,2706,260134,Croup,outcome
 2704,2706,441788,Human papilloma virus infection,outcome
@@ -269,36 +134,6 @@ targetId,comparatorId,outcomeId,outcomeName,type
 2704,2706,4032878,Hair follicle disorder,outcome
 2704,2706,194475,Hiccoughs,outcome
 2704,2706,377910,Deviated nasal septum,outcome
-2714,2715,381581,Chalazion,outcome
-2714,2715,260134,Croup,outcome
-2714,2715,441788,Human papilloma virus infection,outcome
-2714,2715,139099,Ingrowing nail,outcome
-2714,2715,4134455,Mononeuropathy,outcome
-2714,2715,4215978,Onychomycosis,outcome
-2714,2715,4112731,Polyp of intestine,outcome
-2714,2715,140641,Verruca vulgaris,outcome
-2714,2715,4332246,Aneurysm,outcome
-2714,2715,432585,Blood coagulation disorder,outcome
-2714,2715,440674,Gout,outcome
-2714,2715,378416,Retinal disorder,outcome
-2714,2715,4032878,Hair follicle disorder,outcome
-2714,2715,194475,Hiccoughs,outcome
-2714,2715,377910,Deviated nasal septum,outcome
-2716,2717,381581,Chalazion,outcome
-2716,2717,260134,Croup,outcome
-2716,2717,441788,Human papilloma virus infection,outcome
-2716,2717,139099,Ingrowing nail,outcome
-2716,2717,4134455,Mononeuropathy,outcome
-2716,2717,4215978,Onychomycosis,outcome
-2716,2717,4112731,Polyp of intestine,outcome
-2716,2717,140641,Verruca vulgaris,outcome
-2716,2717,4332246,Aneurysm,outcome
-2716,2717,432585,Blood coagulation disorder,outcome
-2716,2717,440674,Gout,outcome
-2716,2717,378416,Retinal disorder,outcome
-2716,2717,4032878,Hair follicle disorder,outcome
-2716,2717,194475,Hiccoughs,outcome
-2716,2717,377910,Deviated nasal septum,outcome
 2718,2719,381581,Chalazion,outcome
 2718,2719,260134,Croup,outcome
 2718,2719,441788,Human papilloma virus infection,outcome
@@ -314,3 +149,168 @@ targetId,comparatorId,outcomeId,outcomeName,type
 2718,2719,4032878,Hair follicle disorder,outcome
 2718,2719,194475,Hiccoughs,outcome
 2718,2719,377910,Deviated nasal septum,outcome
+2716,2717,381581,Chalazion,outcome
+2716,2717,260134,Croup,outcome
+2716,2717,441788,Human papilloma virus infection,outcome
+2716,2717,139099,Ingrowing nail,outcome
+2716,2717,4134455,Mononeuropathy,outcome
+2716,2717,4215978,Onychomycosis,outcome
+2716,2717,4112731,Polyp of intestine,outcome
+2716,2717,140641,Verruca vulgaris,outcome
+2716,2717,4332246,Aneurysm,outcome
+2716,2717,432585,Blood coagulation disorder,outcome
+2716,2717,440674,Gout,outcome
+2716,2717,378416,Retinal disorder,outcome
+2716,2717,4032878,Hair follicle disorder,outcome
+2716,2717,194475,Hiccoughs,outcome
+2716,2717,377910,Deviated nasal septum,outcome
+2714,2715,381581,Chalazion,outcome
+2714,2715,260134,Croup,outcome
+2714,2715,441788,Human papilloma virus infection,outcome
+2714,2715,139099,Ingrowing nail,outcome
+2714,2715,4134455,Mononeuropathy,outcome
+2714,2715,4215978,Onychomycosis,outcome
+2714,2715,4112731,Polyp of intestine,outcome
+2714,2715,140641,Verruca vulgaris,outcome
+2714,2715,4332246,Aneurysm,outcome
+2714,2715,432585,Blood coagulation disorder,outcome
+2714,2715,440674,Gout,outcome
+2714,2715,378416,Retinal disorder,outcome
+2714,2715,4032878,Hair follicle disorder,outcome
+2714,2715,194475,Hiccoughs,outcome
+2714,2715,377910,Deviated nasal septum,outcome
+2576,2577,381581,Chalazion,outcome
+2576,2577,260134,Croup,outcome
+2576,2577,441788,Human papilloma virus infection,outcome
+2576,2577,139099,Ingrowing nail,outcome
+2576,2577,4134455,Mononeuropathy,outcome
+2576,2577,4215978,Onychomycosis,outcome
+2576,2577,4112731,Polyp of intestine,outcome
+2576,2577,140641,Verruca vulgaris,outcome
+2576,2577,4332246,Aneurysm,outcome
+2576,2577,432585,Blood coagulation disorder,outcome
+2576,2577,440674,Gout,outcome
+2576,2577,378416,Retinal disorder,outcome
+2576,2577,4032878,Hair follicle disorder,outcome
+2576,2577,194475,Hiccoughs,outcome
+2576,2577,377910,Deviated nasal septum,outcome
+2550,2576,381581,Chalazion,outcome
+2550,2576,260134,Croup,outcome
+2550,2576,441788,Human papilloma virus infection,outcome
+2550,2576,139099,Ingrowing nail,outcome
+2550,2576,4134455,Mononeuropathy,outcome
+2550,2576,4215978,Onychomycosis,outcome
+2550,2576,4112731,Polyp of intestine,outcome
+2550,2576,140641,Verruca vulgaris,outcome
+2550,2576,4332246,Aneurysm,outcome
+2550,2576,432585,Blood coagulation disorder,outcome
+2550,2576,440674,Gout,outcome
+2550,2576,378416,Retinal disorder,outcome
+2550,2576,4032878,Hair follicle disorder,outcome
+2550,2576,194475,Hiccoughs,outcome
+2550,2576,377910,Deviated nasal septum,outcome
+2577,2550,381581,Chalazion,outcome
+2577,2550,260134,Croup,outcome
+2577,2550,441788,Human papilloma virus infection,outcome
+2577,2550,139099,Ingrowing nail,outcome
+2577,2550,4134455,Mononeuropathy,outcome
+2577,2550,4215978,Onychomycosis,outcome
+2577,2550,4112731,Polyp of intestine,outcome
+2577,2550,140641,Verruca vulgaris,outcome
+2577,2550,4332246,Aneurysm,outcome
+2577,2550,432585,Blood coagulation disorder,outcome
+2577,2550,440674,Gout,outcome
+2577,2550,378416,Retinal disorder,outcome
+2577,2550,4032878,Hair follicle disorder,outcome
+2577,2550,194475,Hiccoughs,outcome
+2577,2550,377910,Deviated nasal septum,outcome
+2626,2624,381581,Chalazion,outcome
+2626,2624,260134,Croup,outcome
+2626,2624,441788,Human papilloma virus infection,outcome
+2626,2624,139099,Ingrowing nail,outcome
+2626,2624,4134455,Mononeuropathy,outcome
+2626,2624,4215978,Onychomycosis,outcome
+2626,2624,4112731,Polyp of intestine,outcome
+2626,2624,140641,Verruca vulgaris,outcome
+2626,2624,4332246,Aneurysm,outcome
+2626,2624,432585,Blood coagulation disorder,outcome
+2626,2624,440674,Gout,outcome
+2626,2624,378416,Retinal disorder,outcome
+2626,2624,4032878,Hair follicle disorder,outcome
+2626,2624,194475,Hiccoughs,outcome
+2626,2624,377910,Deviated nasal septum,outcome
+2628,2626,381581,Chalazion,outcome
+2628,2626,260134,Croup,outcome
+2628,2626,441788,Human papilloma virus infection,outcome
+2628,2626,139099,Ingrowing nail,outcome
+2628,2626,4134455,Mononeuropathy,outcome
+2628,2626,4215978,Onychomycosis,outcome
+2628,2626,4112731,Polyp of intestine,outcome
+2628,2626,140641,Verruca vulgaris,outcome
+2628,2626,4332246,Aneurysm,outcome
+2628,2626,432585,Blood coagulation disorder,outcome
+2628,2626,440674,Gout,outcome
+2628,2626,378416,Retinal disorder,outcome
+2628,2626,4032878,Hair follicle disorder,outcome
+2628,2626,194475,Hiccoughs,outcome
+2628,2626,377910,Deviated nasal septum,outcome
+2624,2628,381581,Chalazion,outcome
+2624,2628,260134,Croup,outcome
+2624,2628,441788,Human papilloma virus infection,outcome
+2624,2628,139099,Ingrowing nail,outcome
+2624,2628,4134455,Mononeuropathy,outcome
+2624,2628,4215978,Onychomycosis,outcome
+2624,2628,4112731,Polyp of intestine,outcome
+2624,2628,140641,Verruca vulgaris,outcome
+2624,2628,4332246,Aneurysm,outcome
+2624,2628,432585,Blood coagulation disorder,outcome
+2624,2628,440674,Gout,outcome
+2624,2628,378416,Retinal disorder,outcome
+2624,2628,4032878,Hair follicle disorder,outcome
+2624,2628,194475,Hiccoughs,outcome
+2624,2628,377910,Deviated nasal septum,outcome
+2629,2627,381581,Chalazion,outcome
+2629,2627,260134,Croup,outcome
+2629,2627,441788,Human papilloma virus infection,outcome
+2629,2627,139099,Ingrowing nail,outcome
+2629,2627,4134455,Mononeuropathy,outcome
+2629,2627,4215978,Onychomycosis,outcome
+2629,2627,4112731,Polyp of intestine,outcome
+2629,2627,140641,Verruca vulgaris,outcome
+2629,2627,4332246,Aneurysm,outcome
+2629,2627,432585,Blood coagulation disorder,outcome
+2629,2627,440674,Gout,outcome
+2629,2627,378416,Retinal disorder,outcome
+2629,2627,4032878,Hair follicle disorder,outcome
+2629,2627,194475,Hiccoughs,outcome
+2629,2627,377910,Deviated nasal septum,outcome
+2625,2629,381581,Chalazion,outcome
+2625,2629,260134,Croup,outcome
+2625,2629,441788,Human papilloma virus infection,outcome
+2625,2629,139099,Ingrowing nail,outcome
+2625,2629,4134455,Mononeuropathy,outcome
+2625,2629,4215978,Onychomycosis,outcome
+2625,2629,4112731,Polyp of intestine,outcome
+2625,2629,140641,Verruca vulgaris,outcome
+2625,2629,4332246,Aneurysm,outcome
+2625,2629,432585,Blood coagulation disorder,outcome
+2625,2629,440674,Gout,outcome
+2625,2629,378416,Retinal disorder,outcome
+2625,2629,4032878,Hair follicle disorder,outcome
+2625,2629,194475,Hiccoughs,outcome
+2625,2629,377910,Deviated nasal septum,outcome
+2627,2625,381581,Chalazion,outcome
+2627,2625,260134,Croup,outcome
+2627,2625,441788,Human papilloma virus infection,outcome
+2627,2625,139099,Ingrowing nail,outcome
+2627,2625,4134455,Mononeuropathy,outcome
+2627,2625,4215978,Onychomycosis,outcome
+2627,2625,4112731,Polyp of intestine,outcome
+2627,2625,140641,Verruca vulgaris,outcome
+2627,2625,4332246,Aneurysm,outcome
+2627,2625,432585,Blood coagulation disorder,outcome
+2627,2625,440674,Gout,outcome
+2627,2625,378416,Retinal disorder,outcome
+2627,2625,4032878,Hair follicle disorder,outcome
+2627,2625,194475,Hiccoughs,outcome
+2627,2625,377910,Deviated nasal septum,outcome
