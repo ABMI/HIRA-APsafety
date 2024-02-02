@@ -38,7 +38,7 @@ FROM (
         FROM #CodeSetData_0 C
         JOIN @cdm_database_schema.observation_period OP ON C.person_id = OP.person_id 
         AND C.condition_start_date BETWEEN OP.observation_period_start_date AND OP.observation_period_end_date
-    ) p where p.ordinal = 1
+    ) p 
 ) QE
 
 
