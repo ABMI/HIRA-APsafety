@@ -23,39 +23,23 @@ INTO #CodeSetData_0
 FROM @cdm_database_schema.condition_occurrence co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 0));
 
-SELECT event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id
+SELECT QE.ordinal as event_id, person_id, start_date, end_date, op_start_date, op_end_date, visit_occurrence_id
 INTO #qualified_events
-FROM 
-(
-  select pe.event_id, pe.person_id, pe.start_date, pe.end_date, pe.op_start_date, pe.op_end_date, row_number() over (partition by pe.person_id order by pe.start_date ASC) as ordinal, cast(pe.visit_occurrence_id as bigint) as visit_occurrence_id
-  FROM (	
-	-- Begin Primary Events
-select P.ordinal as event_id, P.person_id, P.start_date, P.end_date, op_start_date, op_end_date, cast(P.visit_occurrence_id as bigint) as visit_occurrence_id
-FROM
-(
-  select E.person_id, E.start_date, E.end_date,
-         row_number() OVER (PARTITION BY E.person_id ORDER BY E.sort_date ASC, E.event_id) ordinal,
-         OP.observation_period_start_date as op_start_date, OP.observation_period_end_date as op_end_date, cast(E.visit_occurrence_id as bigint) as visit_occurrence_id
-  FROM 
-  (
-  -- Begin Condition Occurrence Criteria
-SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,1,C.condition_start_date)) as end_date,
-  C.visit_occurrence_id, C.condition_start_date as sort_date
-FROM #CodeSetData_0 C
-WHERE C.ordinal = 1
-	
--- End Condition Occurrence Criteria
-  ) E
-	JOIN @cdm_database_schema.observation_period OP on E.person_id = OP.person_id and E.start_date >=  OP.observation_period_start_date and E.start_date <= op.observation_period_end_date
-  WHERE DATEADD(day,0,OP.OBSERVATION_PERIOD_START_DATE) <= E.START_DATE AND DATEADD(day,0,E.START_DATE) <= OP.OBSERVATION_PERIOD_END_DATE
-) P
-WHERE P.ordinal = 1
--- End Primary Events
-) pe
-  
+FROM (
+    SELECT * FROM(
+        SELECT  
+            C.person_id, 
+            C.condition_start_date AS start_date, 
+            COALESCE(C.condition_end_date, DATEADD(day, 1, C.condition_start_date)) AS end_date,
+            OP.observation_period_start_date AS op_start_date, 
+            OP.observation_period_end_date AS op_end_date, 
+            ROW_NUMBER() OVER (PARTITION BY C.person_id ORDER BY C.condition_start_date ASC, C.condition_occurrence_id) AS ordinal,
+            CAST(C.visit_occurrence_id AS BIGINT) AS visit_occurrence_id
+        FROM #CodeSetData_0 C
+        JOIN @cdm_database_schema.observation_period OP ON C.person_id = OP.person_id 
+        AND C.condition_start_date BETWEEN OP.observation_period_start_date AND OP.observation_period_end_date
+    ) p where p.ordinal = 1
 ) QE
-
-;
 
 --- Inclusion Rule Inserts
 
