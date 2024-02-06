@@ -38,7 +38,7 @@ JOIN #Codesets codesets on ((o.observation_concept_id = codesets.concept_id and 
 
 SELECT co.* 
 into #CodeSetData_1
-FROM @cdm_database_schema.CONDITION_OCCURRENCE_covid19 co
+FROM @cdm_database_schema.CONDITION_OCCURRENCE co
 JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 1));
 
 
