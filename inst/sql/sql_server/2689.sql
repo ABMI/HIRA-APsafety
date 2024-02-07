@@ -19,8 +19,8 @@ FROM (
             OP.observation_period_end_date AS op_end_date, 
             ROW_NUMBER() OVER (PARTITION BY C.person_id ORDER BY C.death_date ASC) AS ordinal,
             CAST(NULL as bigint) AS visit_occurrence_id
-        FROM [CDMPv535_ABMI].[dbo].DEATH C
-        JOIN [CDMPv535_ABMI].[dbo].observation_period OP ON C.person_id = OP.person_id 
+        FROM @cdm_database_schema.DEATH C
+        JOIN @cdm_database_schema.observation_period OP ON C.person_id = OP.person_id 
         AND C.death_date BETWEEN OP.observation_period_start_date AND OP.observation_period_end_date
     ) p where p.ordinal = 1
 ) QE
