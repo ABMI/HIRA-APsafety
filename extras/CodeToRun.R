@@ -1,4 +1,4 @@
-library(APsafety)
+library(antipsychotics)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
 options(andromedaTempFolder = "d:/andromedaTemp")
@@ -7,7 +7,7 @@ options(andromedaTempFolder = "d:/andromedaTemp")
 maxCores <- parallel::detectCores() - 1
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "d:/APsafety"
+outputFolder <- "d:/antipsychotics"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "redshift",
@@ -38,7 +38,7 @@ execute(connectionDetails = connectionDetails,
         databaseId = databaseId,
         databaseName = databaseName,
         databaseDescription = databaseDescription,
-        verifyDependencies = FALSE,
+        verifyDependencies = TRUE,
         createCohorts = TRUE,
         synthesizePositiveControls = TRUE,
         runAnalyses = TRUE,

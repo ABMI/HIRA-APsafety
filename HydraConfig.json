@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "APsafety"
+		"find": "antipsychotics"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "APsafety"
+		"find": "antipsychotics"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

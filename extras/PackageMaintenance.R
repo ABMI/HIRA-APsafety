@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of APsafety
+# This file is part of antipsychotics
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,14 +18,14 @@
 install.packages("styler")
 styler::style_pkg()
 remotes::install_github("ohdsi/OhdsiRTools")
-OhdsiRTools::checkUsagePackage("APsafety")
+OhdsiRTools::checkUsagePackage("antipsychotics")
 OhdsiRTools::updateCopyrightYearFolder()
 install.packages("devtools")
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/APsafety.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/APsafety.pdf")
+unlink("extras/antipsychotics.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/antipsychotics.pdf")
 
 # Create vignettes ---------------------------------------------------------
 install.packages("rmarkdown")
@@ -51,7 +51,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "Cohorts.csv",
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "APsafety")
+                                                 packageName = "antipsychotics")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -59,7 +59,7 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile(rootPackage = "APsafety",
+OhdsiRTools::createRenvLockFile(rootPackage = "antipsychotics",
                                 mode = "description",
                                 includeRootPackage = FALSE,
                                 additionalRequiredPackages = "keyring")

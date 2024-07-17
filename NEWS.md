@@ -1,6 +1,6 @@
 (Note: currently not using version numbers, so referencing release time instead)
 
-APsafety Q1 2022
+antipsychotics Q1 2022
 ======================================
 
 Changes:

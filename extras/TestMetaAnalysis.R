@@ -1,6 +1,6 @@
 # Code that can be used to test whether the meta-analysis functionality works
-library(APsafety)
-exportFolder <- "D:/APsafety/export"
+library(antipsychotics)
+exportFolder <- "D:/antipsychotics/export"
 
 # Create a dummy additional database by copying all CSV files and changing the database ID --------------------------------
 databaseId <- "Dummy"

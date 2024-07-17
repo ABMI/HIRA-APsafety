@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of APsafety
+# This file is part of antipsychotics
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 #' Execute the Study
 #'
 #' @details
-#' This function executes the APsafety Study.
+#' This function executes the antipsychotics Study.
 #' 
 #' The \code{createCohorts}, \code{synthesizePositiveControls}, \code{runAnalyses}, and \code{runDiagnostics} arguments
 #' are intended to be used to run parts of the full study at a time, but none of the parts are considered to be optional.
@@ -92,7 +92,7 @@ execute <- function(connectionDetails,
                     cohortCensorStatsTable = paste0(cohortTable, "_censor_stats"),
                     oracleTempSchema = NULL,
                     tempEmulationSchema = getOption("sqlRenderTempEmulationSchema"),
-                    verifyDependencies = FALSE,
+                    verifyDependencies = TRUE,
                     outputFolder,
                     databaseId = "Unknown",
                     databaseName = "Unknown",
