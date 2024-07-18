@@ -58,6 +58,9 @@ webApiCohortId,cohortId,cohortName
 2539,2539,[sooj] MPHWithAntipsychotics (gap day 30)
 3452,3452,[HGB] InpatientWithAP (DRN)
 3490,3490,[HGB] InpatientWithoutAP (DRN) 240715
+809,809,[HGB] Alzheimer Dementia ver0 (Outcome)
+846,846,[HGB] Vascular dementia ver0 (Outcome)
+2013,2013,[HGB] All Dementia + MCI ver0 (Outcome) revised230919
 3454,3454,[HGB] All Dementia ver0 (Outcome) (3)
 2599,2599,[sooj] MPHWithAP (olanzapine) (gap day 30)
 3434,3434,[sooj][DRN] SSRIswithAntipsychotics (gap day 30) (All age groups)
